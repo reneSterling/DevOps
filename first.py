@@ -1,3 +1,6 @@
+#This python code is used to take a number from a user and check if it
+#is positive, negative, zero or not a number
+
 num = 0
 
 num = int(input ("Please enter a number:\n"))
@@ -10,6 +13,5 @@ elif num < 0:
 
 elif num == 0:
     print ("Your number is zero")
-
 else:
     print ("What you entered is not a number")

@@ -8,5 +8,9 @@ os.system("git add .")
 
 os.system(f'git commit -m ' "{com} ")
 
+os.system("git pull origin main")
+
 os.system("git push origin main")
+
+
 
